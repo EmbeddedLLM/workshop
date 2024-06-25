@@ -36,6 +36,7 @@ To setup the environment:
     pip uninstall triton​
     git clone https://github.com/ROCm/triton.git
     cd triton/python​
+    pip install ninja cmake wheel
     pip install .
     ```
 4. Launch Notebook
