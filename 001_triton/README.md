@@ -16,6 +16,7 @@ To setup the environment:
       --group-add video \​
       --ipc=host \​
       --shm-size 8G \​
+      -p 8888:8888 \
       rocm/pytorch:rocm6.1.3_ubuntu22.04_py3.10_pytorch_release-2.1.2
     ```
 
